@@ -1,23 +1,46 @@
-import logo from './logo.svg';
+import React, {useEffect, useState} from "react";
 import './App.css';
 
+
 function App() {
+  document.title = "Pomodoro Timer"
+  const [isRunning, setIsRunning] = useState(false);
+  const [timeStartPomodoro] = useState(1000 * 60 * 25);
+  const [timeLeft, setTimeLeft] = useState(timeStartPomodoro);  // milliseconds remaining
+
+  useEffect(() => {
+    if (!isRunning) return;
+    const timer = setTimeout(() => {
+      setTimeLeft(timeLeft-100);
+    }, 100);
+    // Clear timeout if the component is unmounted
+    return () => clearTimeout(timer);
+  });
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div className="center">
+      <div 
+        className="timer">
+        {Math.floor((timeLeft / 1000 / 60) % 60).toString().padStart(2, '0')}:
+        {Math.floor((timeLeft / 1000) % 60).toString().padStart(2, '0')}</div>
+      <div>
+        <button
+          className="start-button"
+          onClick={() => setIsRunning(!isRunning)}
         >
-          Learn React
-        </a>
-      </header>
+          {isRunning ? "Pause" : "Start"}
+        </button>
+      </div>
+      <div>
+        <button
+          className="reset-button"
+          onClick={() => {
+            setIsRunning(false)
+            setTimeLeft(timeStartPomodoro)
+          }}>
+          Reset
+        </button>
+      </div>
     </div>
   );
 }
