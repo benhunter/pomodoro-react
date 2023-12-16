@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/pomodoro-react/static/css/main.a5b24c4a.chunk.css",
-    "main.js": "/pomodoro-react/static/js/main.ef3a9dce.chunk.js",
-    "main.js.map": "/pomodoro-react/static/js/main.ef3a9dce.chunk.js.map",
-    "runtime-main.js": "/pomodoro-react/static/js/runtime-main.ec14275a.js",
-    "runtime-main.js.map": "/pomodoro-react/static/js/runtime-main.ec14275a.js.map",
-    "static/js/2.e2fb5062.chunk.js": "/pomodoro-react/static/js/2.e2fb5062.chunk.js",
-    "static/js/2.e2fb5062.chunk.js.map": "/pomodoro-react/static/js/2.e2fb5062.chunk.js.map",
-    "static/js/3.584ca211.chunk.js": "/pomodoro-react/static/js/3.584ca211.chunk.js",
-    "static/js/3.584ca211.chunk.js.map": "/pomodoro-react/static/js/3.584ca211.chunk.js.map",
+    "main.css": "/pomodoro-react/static/css/main.04d061dd.chunk.css",
+    "main.js": "/pomodoro-react/static/js/main.776c00af.chunk.js",
+    "main.js.map": "/pomodoro-react/static/js/main.776c00af.chunk.js.map",
+    "runtime-main.js": "/pomodoro-react/static/js/runtime-main.d54a58fc.js",
+    "runtime-main.js.map": "/pomodoro-react/static/js/runtime-main.d54a58fc.js.map",
+    "static/js/2.fb13c138.chunk.js": "/pomodoro-react/static/js/2.fb13c138.chunk.js",
+    "static/js/2.fb13c138.chunk.js.map": "/pomodoro-react/static/js/2.fb13c138.chunk.js.map",
+    "static/js/3.85842899.chunk.js": "/pomodoro-react/static/js/3.85842899.chunk.js",
+    "static/js/3.85842899.chunk.js.map": "/pomodoro-react/static/js/3.85842899.chunk.js.map",
     "index.html": "/pomodoro-react/index.html",
-    "static/css/main.a5b24c4a.chunk.css.map": "/pomodoro-react/static/css/main.a5b24c4a.chunk.css.map",
-    "static/js/2.e2fb5062.chunk.js.LICENSE.txt": "/pomodoro-react/static/js/2.e2fb5062.chunk.js.LICENSE.txt"
+    "static/css/main.04d061dd.chunk.css.map": "/pomodoro-react/static/css/main.04d061dd.chunk.css.map",
+    "static/js/2.fb13c138.chunk.js.LICENSE.txt": "/pomodoro-react/static/js/2.fb13c138.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ec14275a.js",
-    "static/js/2.e2fb5062.chunk.js",
-    "static/css/main.a5b24c4a.chunk.css",
-    "static/js/main.ef3a9dce.chunk.js"
+    "static/js/runtime-main.d54a58fc.js",
+    "static/js/2.fb13c138.chunk.js",
+    "static/css/main.04d061dd.chunk.css",
+    "static/js/main.776c00af.chunk.js"
   ]
 }
