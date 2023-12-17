@@ -1,11 +1,13 @@
 import React, {useEffect, useState} from "react";
 import './App.css';
 
+const minutes = 25;
+const seconds = 60;
 
 function App() {
     document.title = "Pomodoro Timer"
     const [isRunning, setIsRunning] = useState(false);
-    const [timeStartPomodoro] = useState(1000 * 5); //1000 * 60 * 25);
+    const [timeStartPomodoro] = useState(1000 * seconds * minutes);
     const [timeLeft, setTimeLeft] = useState(timeStartPomodoro);  // milliseconds remaining
 
     useEffect(() => {
