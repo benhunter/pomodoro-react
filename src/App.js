@@ -38,7 +38,7 @@ function App() {
                 {Math.floor((timeLeft / 1000) % 60).toString().padStart(2, '0')}</div>
             <div>
                 <button
-                    className="start-button"
+                    className="button-start"
                     onClick={() => setIsRunning(!isRunning)}
                 >
                     {isRunning ? "Pause" : "Start"}
@@ -46,7 +46,7 @@ function App() {
             </div>
             <div>
                 <button
-                    className="reset-button"
+                    className="button-reset"
                     onClick={() => resetTimer()}>
                     Reset
                 </button>

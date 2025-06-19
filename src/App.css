@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-size: 200px;
 }
 
 .center {
@@ -11,5 +12,25 @@
 }
 
 .timer {
-  font-size: 100px;
+  font-size: 140px;
+  /* background-color: rgba(0, 0, 0, 0.219); */
+  padding: 2%;
+}
+
+button {
+  font-size: 50px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.button-start {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.button-reset {
+  background-color: #f44336; /* Red */
+  color: white;
 }
