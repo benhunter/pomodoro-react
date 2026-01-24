@@ -23,7 +23,7 @@ function App() {
 
         // Clear timeout if the component is unmounted
         return () => clearTimeout(timer);
-    });
+    }, [isRunning, timeLeft]);
 
     function resetTimer() {
         setIsRunning(false)
